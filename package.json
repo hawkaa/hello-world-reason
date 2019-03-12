@@ -1,0 +1,15 @@
+{
+  "name": "hello-world-reason",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -make-world",
+    "hello": "node src/hello.bs.js",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.18"
+  }
+}
